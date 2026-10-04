@@ -33,7 +33,7 @@ int pop()
 
 void display()
 {
-    for (int i = 0; i < MAX; i++)
+    for (int i = 0; i <= top; i++)
     {
         std::cout << array[i] << "\t";
     }
