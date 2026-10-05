@@ -3,6 +3,7 @@
 int top = -1;
 int array[MAX];
 
+// function to add on top of the stack
 void push(int x)
 {
     if (top == MAX - 1)
@@ -16,6 +17,7 @@ void push(int x)
         std::cout << x << " has been added \n";
     }
 }
+//function to remove from the stack
 int pop()
 {
     if (top == -1)
@@ -31,6 +33,7 @@ int pop()
     }
 }
 
+//function to display the stack
 void display()
 {
     for (int i = 0; i <= top; i++)
